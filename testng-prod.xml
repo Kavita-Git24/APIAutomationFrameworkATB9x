@@ -5,7 +5,7 @@
           name="C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/src/test/java/com/theAPITesting/Tests/sample/TestIntegrationSample.java">
         <groups>
             <run>
-                <include name="reg"></include>
+                <include name="prod"></include>
             </run>
         </groups>
         <classes>

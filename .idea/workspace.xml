@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcfa3dc2-8959-45bc-ae6d-f0dc98ed3cf0" name="Changes" comment="" />
+    <list default="true" id="bcfa3dc2-8959-45bc-ae6d-f0dc98ed3cf0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/endpoints/APIConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/modules/PayloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreatetoken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/sample/TestIntegrationSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/asserts/AssertActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-sanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-smoke.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,7 +50,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2qTAuoItxHN0gcHziZJ2bL8OS7h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,10 +61,77 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml.executor": "Run",
+    "TestNG.TestIntegrationSample.executor": "Run",
+    "TestNG.testCreateBooking.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/src/main/java/com/theAPITesting"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kavita singh\IdeaProjects\APIAutomationFrameworkATB9x\src\main\java\com\theAPITesting" />
+      <recent name="C:\Users\Kavita singh\IdeaProjects\APIAutomationFrameworkATB9x" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.theAPITesting.Tests.crud" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.testCreateBooking">
+    <configuration name="C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB9x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIntegrationSample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB9x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theAPITesting.Tests.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.theAPITesting.Tests.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.theAPITesting.Tests.sample.TestIntegrationSample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB9x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theAPITesting.Tests.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.theAPITesting.Tests.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.theAPITesting.Tests.crud.testCreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.testCreateBooking" />
+        <item itemvalue="TestNG.C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml" />
+        <item itemvalue="TestNG.TestIntegrationSample" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

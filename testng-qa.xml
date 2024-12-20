@@ -5,11 +5,11 @@
           name="C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/src/test/java/com/theAPITesting/Tests/sample/TestIntegrationSample.java">
         <groups>
             <run>
-                <include name="prod"></include>
+                <include name="qa"></include>
             </run>
         </groups>
         <classes>
-            <class name="com.theAPITesting.Tests.sample.TestIntegrationSample">
+            <class name="com.theAPITesting.Tests.crud.testCreateBooking">
             </class>
         </classes>
     </test>
