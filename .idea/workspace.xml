@@ -4,32 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcfa3dc2-8959-45bc-ae6d-f0dc98ed3cf0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/endpoints/APIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/modules/PayloadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/BookingDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/pojos/TokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreatetoken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/sample/TestIntegrationSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/asserts/AssertActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-prod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-qa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-reg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-smoke.xml" afterDir="false" />
+    <list default="true" id="bcfa3dc2-8959-45bc-ae6d-f0dc98ed3cf0" name="Changes" comment="Initial API Framework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/integration/TestIntegrationFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/theAPITesting/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/theAPITesting/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/sample/TestIntegrationSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/sample/TestIntegrationSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/theAPITesting/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/theAPITesting/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-qa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-qa.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kavita-Git24&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kavita-Git24/APIAutomationFrameworkATB9x.git&quot;,
+    &quot;accountId&quot;: &quot;6204ae90-20db-4d45-8d9b-c277f706aa12&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2qTAuoItxHN0gcHziZJ2bL8OS7h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,7 +56,8 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml.executor": "Run",
+    "TestNG.C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml.executor": "Debug",
+    "TestNG.TestIntegrationFlow.executor": "Run",
     "TestNG.TestIntegrationSample.executor": "Run",
     "TestNG.testCreateBooking.executor": "Run",
     "git-widget-placeholder": "master",
@@ -79,11 +74,28 @@
       <recent name="com.theAPITesting.Tests.crud" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testCreateBooking">
+  <component name="RunManager" selected="TestNG.TestIntegrationFlow">
     <configuration name="C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFrameworkATB9x" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIntegrationFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB9x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theAPITesting.Tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.theAPITesting.Tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.theAPITesting.Tests.integration.TestIntegrationFlow" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,8 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testCreateBooking" />
+        <item itemvalue="TestNG.TestIntegrationFlow" />
         <item itemvalue="TestNG.C:/Users/Kavita singh/IdeaProjects/APIAutomationFrameworkATB9x/testng-qa.xml" />
+        <item itemvalue="TestNG.testCreateBooking" />
         <item itemvalue="TestNG.TestIntegrationSample" />
       </list>
     </recent_temporary>
@@ -141,6 +154,53 @@
       <option name="presentableId" value="Default" />
       <updated>1734676418714</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial API Framework">
+      <option name="closed" value="true" />
+      <created>1734696827911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734696827911</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial API Framework">
+      <option name="closed" value="true" />
+      <created>1734697298136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734697298136</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial API Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial API Framework" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/theAPITesting/Tests/crud/testCreateBooking.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

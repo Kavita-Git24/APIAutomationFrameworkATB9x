@@ -9,15 +9,19 @@ import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@Owner("Promode")
+@Owner("Tester")
 @TmsLink("https://google.com")
 @Link(name = "Link to TC", url = "https://bugz.atlassian.net/browse/RBT-4")
 @Issue("JIRA_RBT-4")
-//x@Description("Verify that POST request is working fine.")
+//@Description("Verify that POST request is working fine.")
 @Test(groups = "qa")
 public class testCreateBooking extends BaseTest {
     public void testVerifyCreateBookingPOST01() {
-        requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
+        String basePathGet=APIConstants.CREATE_UPDATE_BOOKING_URL;
+        System.out.println("BaseUrl is: " +baseUrl);
+        System.out.println("BasePath is: " +basePathGet);
+
+        requestSpecification.basePath(basePathGet);
 
         response = RestAssured.given(requestSpecification)
                 .when().body(payloadManager.createPayloadBookingAsString()).post();
